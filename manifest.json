@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "esegnorelli.privacy-pulse",
+  "name": "Privacy Pulse",
+  "version": "1.0.0",
+  "author": "Esegnorelli",
+  "license": "MIT",
+  "description": "Bar indicator for live microphone, camera, and screen-share capture. Shows which apps are using your sensors right now.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Privacy Pulse",
+    "description": "See when mic, camera, or screen capture is active and which apps hold them.",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
